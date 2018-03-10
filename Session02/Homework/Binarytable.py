@@ -28,3 +28,5 @@ for i in range(1, n+1):
             else:
                 print("1 ", end= "")
     print()
+
+# Cach 2: thu i+j de phan biet 1, 0
