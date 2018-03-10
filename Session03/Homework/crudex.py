@@ -1,6 +1,7 @@
 store = ["t-shirt", "sweater"]
 print(*store, sep=", ")
-store.append("jeans")
+n = input("What else?")
+store.append(n)
 print(*store, sep=", ")
 pos = int(input("Update position:"))
 new = input("New item:")
